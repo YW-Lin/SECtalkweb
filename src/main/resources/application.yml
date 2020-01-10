@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+mybatis:
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+  config-location:  classpath:/mybatis/config/mybatis-config.xml
+spring:
+  datasource:
+    username: root
+    password: pw123a
+#    url: jdbc:mysql://116.62.12.140/wchat?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://127.0.0.1/wchat?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  jackson:
+    default-property-inclusion: non_null
+
+logging:
+  level:
+    com.wchat: info
+  file: logs/mylog.log
+  pattern:
+    file: applog/%d{yyyy-MM-dd}/%d{yyyy-MM-dd}.log
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: false
+  supportMethodsArguments: true
+  params: count=countSql
+
+PW_AES_KEY: 71ac0bbff11d4347a1e45e6277fb4874
+TOKEN_AES_KEY: 71ac0bbff11d4347a1e45e6277fb4874
+pageSize: 10

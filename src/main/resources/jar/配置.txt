@@ -1,0 +1,5 @@
+jar包及配置，优先配置与jdk同级的jre
+
+
+\jre\lib\security
+security.provider.11=org.bouncycastle.jce.provider.BouncyCastleProvider

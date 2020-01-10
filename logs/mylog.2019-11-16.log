@@ -1,0 +1,1 @@
+[ WARN ] [2019-11-16 12:56:31] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.

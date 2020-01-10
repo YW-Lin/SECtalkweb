@@ -1,0 +1,602 @@
+[ INFO ] [2019-11-10 14:41:13] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on xiaoxin700 with PID 2948 (C:\Users\anyan\Desktop\wchat\target\classes started by anyan in C:\Users\anyan\Desktop\wchat)
+[ INFO ] [2019-11-10 14:41:13] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-10 14:41:16] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-10 14:41:16] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 14:41:16] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-10 14:41:16] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-10 14:41:16] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-10 14:41:16] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2914 ms
+[ INFO ] [2019-11-10 14:41:16] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-10 14:41:17] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCc0rmLgpSBYjNVse8SJ0dd/R+3cqp9q1joBPS3vnPc6BaKWOlb2EHiT7/vWRg86oMCP8qCo8pkPep27X37TjaY48FQ97QbFmS9m9zxLXLnapOTByFVxbukt0km6vMk2Hf4xetqqHO2ddUiATZR+nEmNBqpvjraIDWphYUuaGgLlwIDAQAB
+[ INFO ] [2019-11-10 14:41:17] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAJzSuYuClIFiM1Wx7xInR139H7dyqn2rWOgE9Le+c9zoFopY6VvYQeJPv+9ZGDzqgwI/yoKjymQ96nbtfftONpjjwVD3tBsWZL2b3PEtcudqk5MHIVXFu6S3SSbq8yTYd/jF62qoc7Z11SIBNlH6cSY0Gqm+OtogNamFhS5oaAuXAgMBAAECgYBD/7dGf+Nmyq7ZrKKuK2vtnDEheU3l2eNeD7AQ8DsLAXOsn2roUTgYKl5eKTKyTzlpQ0HLLbw3hQVidg4XZs2TBdZI7B9ja6+AaVTAxwAp134Og6HjcTzZmip/YJut4LNvE9/5dMtUz7bzOJZj8O9losoFgVvmx0g7kYXtOm6mwQJBANGiV1X4N0p/qNAZcG+N8JoP3N1doEZ98Eqhp1RjesUnoIKOk2+DQm8HOH7fh5GnfZsyvgIbb0GOMEV6dTczuCECQQC/gi5WhH/fEzbAT+lRH7z9piI79Vrud/4SAgflz2V/c42AcO1XQWQQEUL/I9Lf43s6U6czyl/JkuGQYs26key3AkBTVgsMFQm95vPwDjzhS/ba9/VgVujxPP16XbsMVCOpHrCzVgSMbwzI4ID4Btp477GCMfDRG6Dl2aWc6SqR0FChAkEAgQ21NFBt62IDT22KiUSeE0BVaZpaAMGT0YbU06UDfPPds2RmTJqgV8OKJm15ua6OaCvfTSNfkXMN1kL+6G9V2QJAKS7FQ5Zx7LRfd+xRLNXd3f8/xV5mHxGYleyctfgsbRQemaMbF3Afqje9RHPsEpfzq1G2lzFjRkue/7Aj+C/QHQ==
+[ INFO ] [2019-11-10 14:41:17] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-10 14:41:17] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-10 14:41:18] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 14:41:18] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 14:41:18] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-10 14:41:18] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 6.306 seconds (JVM running for 15.803)
+[ INFO ] [2019-11-10 14:42:03] [http-nio-8080-exec-2] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-10 14:42:03] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-10 14:42:03] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 14 ms
+[ INFO ] [2019-11-10 14:42:16] [http-nio-8080-exec-2] INFO :  com.wchat.aspect.WsAspect [52] - 请求：com.wchat.controller.WebSocketController.sendOneMessage解密后参数：{"msg":"rj","otherCode":12,"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ"}
+[ INFO ] [2019-11-10 14:42:16] [http-nio-8080-exec-2] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ ERROR] [2019-11-10 14:42:18] [Druid-ConnectionPool-Create-1785631369] ERROR:  com.alibaba.druid.pool.DruidDataSource [2471] - create connection SQLException, url: jdbc:mysql://127.0.0.1/wchat?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.__newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45009)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45012)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+[ ERROR] [2019-11-10 14:42:20] [Druid-ConnectionPool-Create-1785631369] ERROR:  com.alibaba.druid.pool.DruidDataSource [2471] - create connection SQLException, url: jdbc:mysql://127.0.0.1/wchat?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.__newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45009)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45012)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+[ ERROR] [2019-11-10 14:42:23] [Druid-ConnectionPool-Create-1785631369] ERROR:  com.alibaba.druid.pool.DruidDataSource [2471] - create connection SQLException, url: jdbc:mysql://127.0.0.1/wchat?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.__newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45009)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45012)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+[ ERROR] [2019-11-10 14:42:25] [Druid-ConnectionPool-Create-1785631369] ERROR:  com.alibaba.druid.pool.DruidDataSource [2471] - create connection SQLException, url: jdbc:mysql://127.0.0.1/wchat?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.__newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45009)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45012)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+[ ERROR] [2019-11-10 14:42:28] [Druid-ConnectionPool-Create-1785631369] ERROR:  com.alibaba.druid.pool.DruidDataSource [2471] - create connection SQLException, url: jdbc:mysql://127.0.0.1/wchat?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.__newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45009)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45012)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+[ ERROR] [2019-11-10 14:42:30] [Druid-ConnectionPool-Create-1785631369] ERROR:  com.alibaba.druid.pool.DruidDataSource [2471] - create connection SQLException, url: jdbc:mysql://127.0.0.1/wchat?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.__newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45009)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45012)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+[ ERROR] [2019-11-10 14:42:33] [Druid-ConnectionPool-Create-1785631369] ERROR:  com.alibaba.druid.pool.DruidDataSource [2471] - create connection SQLException, url: jdbc:mysql://127.0.0.1/wchat?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.__newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45009)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45012)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+[ ERROR] [2019-11-10 14:42:35] [Druid-ConnectionPool-Create-1785631369] ERROR:  com.alibaba.druid.pool.DruidDataSource [2471] - create connection SQLException, url: jdbc:mysql://127.0.0.1/wchat?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.__newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45009)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45012)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+[ ERROR] [2019-11-10 14:42:38] [Druid-ConnectionPool-Create-1785631369] ERROR:  com.alibaba.druid.pool.DruidDataSource [2471] - create connection SQLException, url: jdbc:mysql://127.0.0.1/wchat?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.__newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45009)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45012)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+[ ERROR] [2019-11-10 14:42:40] [Druid-ConnectionPool-Create-1785631369] ERROR:  com.alibaba.druid.pool.DruidDataSource [2471] - create connection SQLException, url: jdbc:mysql://127.0.0.1/wchat?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.__newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45009)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45012)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+[ INFO ] [2019-11-10 14:42:42] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 14:42:42] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-10 14:42:42] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-10 14:42:52] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on xiaoxin700 with PID 20420 (C:\Users\anyan\Desktop\wchat\target\classes started by anyan in C:\Users\anyan\Desktop\wchat)
+[ INFO ] [2019-11-10 14:42:52] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-10 14:42:54] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-10 14:42:54] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 14:42:54] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-10 14:42:54] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-10 14:42:54] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-10 14:42:54] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2518 ms
+[ INFO ] [2019-11-10 14:42:55] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-10 14:42:55] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCg8tGrIg24CQwym/1wPDXYGq3G0PHaXT+S5UqDT+37YJd6vPW/g6QkfMoPxro7kuKjMdQk5ev1BvUayMwy4TdLi24Uzjr0wlgMI5MXs+M/tLBTWJvb5eqqTJH7H2B4J0KVZ6XIo8Fq59EdJfDkLokcjqAB22CBT1KwMJk4/Nr/UQIDAQAB
+[ INFO ] [2019-11-10 14:42:55] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAKDy0asiDbgJDDKb/XA8NdgarcbQ8dpdP5LlSoNP7ftgl3q89b+DpCR8yg/GujuS4qMx1CTl6/UG9RrIzDLhN0uLbhTOOvTCWAwjkxez4z+0sFNYm9vl6qpMkfsfYHgnQpVnpcijwWrn0R0l8OQuiRyOoAHbYIFPUrAwmTj82v9RAgMBAAECgYABKL6J1Pz0TlxgIO96V3Sr0cVeoTKct/81N6GJwJGeNdvhbmr2riQIfz2VT4EX3L71He7BNUa1xQ8O2lNeKnETf0jIh5bB4VpPu4vVOqpdemfNR+qNpF6RPqEJH1q1UKfvS1hbcBXeD8S2xnzGxjL+ZTeLlgPMyzu4zylWvdxWgQJBANCvp9zjhYeNaW5zeazvjOOMQ5rZt3uEWbe3kcvgx0ClxpkA8ldRAQrKe15/f94dRN9wVu2NjQH8MVmAsPXGg4UCQQDFcGy9qRQNINOZJ9/tI1lzKJIQSfmcLzO6qtFAEK8TfnY/pX9HZGbOgOnOMcrV+Il35XgvPefPOkTem9aQQdhdAkBXUYhtdo4Cv/rjilHZOIq9E42eF4ccma5ontjUdAMrW7IThz/fpTdIapzgV30LVTfiPkFBOL9Nm1aS2rQwwpV5AkA51KBFPUz+O2s/JQrV7tC4hl2iH8jZEopYVshLt5dQYm5IXjVVt/bU7bWOC8+ZtN6vG6uESuGnNS4O9h52ypKRAkASNDClTls+JCwSTEyvJGw+lS4LPqhaeA6IN9+EcT5qeNMxbS3yvayNqZeXkDXqNAvDBhNwE0LGtmy8ld4n1ooS
+[ INFO ] [2019-11-10 14:42:56] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-10 14:42:56] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-10 14:42:56] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 14:42:56] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 14:42:56] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-10 14:42:56] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 5.46 seconds (JVM running for 11.842)
+[ INFO ] [2019-11-10 14:43:01] [http-nio-8080-exec-2] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-10 14:43:01] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-10 14:43:01] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 14 ms
+[ INFO ] [2019-11-10 14:43:01] [http-nio-8080-exec-2] INFO :  com.wchat.aspect.WsAspect [52] - 请求：com.wchat.controller.WebSocketController.sendOneMessage解密后参数：{"msg":"rj","otherCode":12,"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ"}
+[ INFO ] [2019-11-10 14:43:02] [http-nio-8080-exec-2] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ INFO ] [2019-11-10 14:43:18] [http-nio-8080-exec-1] INFO :  com.wchat.aspect.WsAspect [52] - 请求：com.wchat.controller.WebSocketController.sendOneMessage解密后参数：{"msg":"rj","otherCode":12,"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ"}
+[ INFO ] [2019-11-10 14:44:18] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 14:44:18] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-10 14:44:18] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-10 14:44:28] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on xiaoxin700 with PID 4024 (C:\Users\anyan\Desktop\wchat\target\classes started by anyan in C:\Users\anyan\Desktop\wchat)
+[ INFO ] [2019-11-10 14:44:28] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-10 14:44:31] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-10 14:44:31] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 14:44:31] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-10 14:44:31] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-10 14:44:31] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-10 14:44:31] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2850 ms
+[ INFO ] [2019-11-10 14:44:32] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-10 14:44:32] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8iFxOZv1juVUfUE5XXjFQmICE6m4+9bF2Bh+kiucLn2W2X0q37WiaCSe8b6UgvNPzexvJZ/9ubmXnbqmFgWx1wETNlfjm+EkI07IYIQPaNbmuq4VenTmmaRhRJo4TPR5s3mRoQQJ4hEtnGnq1k3zCwYu1iuwEcAFE3i+Z6eZISQIDAQAB
+[ INFO ] [2019-11-10 14:44:32] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBALyIXE5m/WO5VR9QTldeMVCYgITqbj71sXYGH6SK5wufZbZfSrftaJoJJ7xvpSC80/N7G8ln/25uZeduqYWBbHXARM2V+Ob4SQjTshghA9o1ua6rhV6dOaZpGFEmjhM9HmzeZGhBAniES2caerWTfMLBi7WK7ARwAUTeL5np5khJAgMBAAECgYBrwbyQi0j0wK8ocKv2P74MBL4gOiW9EozVmnZng4S/HeHytNBuA+GveOAfUeidp4+1MH4XRbu3EJ5qAtQdnHWyckvWs+h/VzRAUAkcPZ2zcCH+Sr8F7/1ywqV9VqiG3ZK6dMi7HbMUNxq6yxZgVVlNYtEQDpEyIn7jfbL+/mjgAQJBAPsSYHek0vKG18OVeglZPF2sQCCw4B/RTbVcWW9BQSlDWRup4wKWqQ4IzZRgLH98qPJeeLcVSNl/zNIlw2nE2kkCQQDAO7pOmQ4pIsOPvWZfxNppLSPhDnjIeuBEXEYJTJdsu2ggeURemIVnbFgs4WQNOSYRuexH3QP6qZ0jw4yLJf4BAkAoRH9CUSYgDa5nSP8EptI+t9SlKZkYoUoUT1ZsuIuJ4apV/H5TOPSuMo0+QdqBK+4wySQVQQ2pDI0+Gx5nRVI5AkAhVHnKFOmKoldr/bfZVQVVhRkadWrlv8BQufr+s8Pxe1DjiIMdL665ruRe67lwPX9nRWg9UYnWFUCEqewdWDoBAkAoZCEsB3bl2UE0rJKPtGw8OwyO5MY3zGxmB/5cDCpcZV01kD+BI42BIoRpQWg3WQjMRyEzfWdxCcE3c7aPQ8nX
+[ INFO ] [2019-11-10 14:44:32] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-10 14:44:32] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-10 14:44:32] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 14:44:33] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 14:44:33] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-10 14:44:33] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 5.693 seconds (JVM running for 12.72)
+[ INFO ] [2019-11-10 14:44:37] [http-nio-8080-exec-2] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-10 14:44:37] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-10 14:44:37] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 13 ms
+[ INFO ] [2019-11-10 14:44:38] [http-nio-8080-exec-2] INFO :  com.wchat.aspect.WsAspect [52] - 请求：com.wchat.controller.WebSocketController.sendOneMessage解密后参数：{"msg":"rj","otherCode":12,"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ"}
+[ INFO ] [2019-11-10 14:44:38] [http-nio-8080-exec-2] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ WARN ] [2019-11-10 14:44:45] [http-nio-8080-exec-2] WARN :  com.wchat.socket.WebSocketServer [122] - 没有找到你指定ID的会话：10
+[ WARN ] [2019-11-10 14:46:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-10 14:46:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-10 14:46:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZATCAfglssoOrY8Kquwn4pv6+XZoUKha7ZkY0tOHi7I/9bg/+Wf0uVwZs4Y27FH5Nh+LFpfBerFTC0QkCzPjy/UisfLXCxERGLt2VMRyGla8XKNeXfHNE0t6vV/geHoRVkzwUs+rJAqo6fDraT7o1t1YEavuHXrI+7P78fQx2zQIDAQAB
+[ INFO ] [2019-11-10 14:46:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAJkBMIB+CWyyg6tjwqq7Cfim/r5dmhQqFrtmRjS04eLsj/1uD/5Z/S5XBmzhjbsUfk2H4sWl8F6sVMLRCQLM+PL9SKx8tcLEREYu3ZUxHIaVrxco15d8c0TS3q9X+B4ehFWTPBSz6skCqjp8OtpPujW3VgRq+4desj7s/vx9DHbNAgMBAAECgYA99NdZELBsTZU3z7vCOt78y1KYb3q285wk4nNHYH+fzj84Vlsvme0F2MOHT4Z+3PuQFZhkhJ9jFtFz2gWWFr4vtsaRDICsjTNzHEWklBWpQbBRuqNTFL+IDB6IRPTuwps+GzC5baFfNXchZhsTYSJEftQaR2wyy/HxfyVxOaTAGQJBAMknaSslAG7Ve0TJpthuVyI+0249DIiJlIa41Uh5p9LgtUYEfCVmAhvK1WTLJclYDz2uEN5+k1+eUe/FqKG34u8CQQDCuPJpkZkMNyrrYey/ae7JaaIj20sIuWPwU5Kalefqut4S7LuW7DfppccC52eLIgYNYKIn46ra24mUpXY1EBIDAkEAsQ9OxFpqmiSxv6fchBAEBLHWe+ei26B2q2uQ2Z20OqvvBDW4bVbwLjSJR5KFrUglCj7ovGAgKv950htjRw5M4wJASdS4TWDgR+pvApq5moY+/O1phfDzDVbF1uzJLIXkTnMWGtTZ98qPFK8/uxEkiHOZGd9m/HrtYFhXXR4zqMD0IwJBALxayqH2B1i+bsxdcYMeg89+j8JDAaJus0dsiCtnwKOkV7Cb8VMGac2NGQUjzk1r8o6QEhjXQ5k74COLOTdYEmc=
+[ WARN ] [2019-11-10 14:46:05] [scheduling-1] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-10 14:48:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-10 14:48:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC97rPBvQC0j6WrEtMpcgPxI8CReHJ//+TG53dyTAybNaqxWJr2CG705PHVT3+p1+/n1YQ0pVPvE8T/lgLRCh/2HtwXJ3GFc/dKfp/SbKK6qUA/WjJ10OTMRH8dvmjC9hHZ7mp8un82ZN1hqN4/n9R+lgELQlTRtNplEsPzVe7HOQIDAQAB
+[ INFO ] [2019-11-10 14:48:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAL3us8G9ALSPpasS0ylyA/EjwJF4cn//5Mbnd3JMDJs1qrFYmvYIbvTk8dVPf6nX7+fVhDSlU+8TxP+WAtEKH/Ye3BcncYVz90p+n9JsorqpQD9aMnXQ5MxEfx2+aML2Ednuany6fzZk3WGo3j+f1H6WAQtCVNG02mUSw/NV7sc5AgMBAAECgYEAsSDvFUwtXzbj+sIometRz85W5ZOdvM+pzPHKzJYt34XSNWh7w92jlNH60sM8POo8O0o97FcPCtS2EOIWqFq36FYbGoV8s2eewKZb7jmaKZhYaK1XfEb2z3YK7lPCTshcFt3ptvyH5dCSVZFIkf6jeTI8JqocsbUetwLWEnjAZbECQQDejsALJwgXoJ1Qlg4ObIq2RHlLWO4bqu87qjyzOmigTN8RjYgEyG70crrKO3NhkLU3/9LAHu/TjsygbbUPgxbNAkEA2njwwbIl/HdYlmBvIPghAJVtJP5w8xt4Mh3QEIkamnuwDzYTe2jrvDH67EPQGqw3WfP24rE19SWyauKWdRX6HQJBANxZq8ye9YUnMfqSxxIC54e03f766q0cHccOMxEk+GgWFBn17kEGDc0bNtN57zAfLT1nncs4Fi15SiJg3I6iNNUCQEfnukXmHn6DwVJtFuZhBGuuwqeEXySEjADisxJeLbVetEmtYKgjlkLwqEeO4jWFLQqcM0vVS48OAzUOsrqCqzkCQDNOIW5xnlptzv3ouvrZfIkXVONvhcGjm4kpA1XrFNUHxIIB7dBGtHbH4OYw1R5DSKp80QFjEw0o44okxWcREeM=
+[ WARN ] [2019-11-10 14:50:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ WARN ] [2019-11-10 14:51:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ WARN ] [2019-11-10 14:52:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ WARN ] [2019-11-10 15:30:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-10 15:31:02] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 15:31:02] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-10 15:31:02] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-10 15:31:16] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on xiaoxin700 with PID 14736 (C:\Users\anyan\Desktop\wchat\target\classes started by anyan in C:\Users\anyan\Desktop\wchat)
+[ INFO ] [2019-11-10 15:31:16] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-10 15:31:19] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-10 15:31:19] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 15:31:19] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-10 15:31:19] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-10 15:31:19] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-10 15:31:19] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 3040 ms
+[ INFO ] [2019-11-10 15:31:20] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-10 15:31:20] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCAJl4IMBeF9d82nmd/NvcO9PODdq7bF2O1+nriiGe1hMvLR8P+3WfuefRcxB1ixVSfeun6EmLI9VzOZZ8bqAzw3fqGNRclmXvE+lpeDw5E/OgxcttsdU9imBXB8hadu1/P5SqmXstRl+nGK4LjnJeMPva6BN+0HDLTRU4eczBVgQIDAQAB
+[ INFO ] [2019-11-10 15:31:20] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAIAmXggwF4X13zaeZ3829w7084N2rtsXY7X6euKIZ7WEy8tHw/7dZ+559FzEHWLFVJ966foSYsj1XM5lnxuoDPDd+oY1FyWZe8T6Wl4PDkT86DFy22x1T2KYFcHyFp27X8/lKqZey1GX6cYrguOcl4w+9roE37QcMtNFTh5zMFWBAgMBAAECgYAkhUqlALejeLedRDVwnsR34b0ISSl5zMeg0/pzVrZfl7HQg+pKVuTIpL7MNSO+w0fjj07g8p5ucOZ696EJa7IMBtj+e7+Delbz86WJNHhp/lbgIFOgYiOtkuN/tz3BWpHEMIymBMATiGxXeXKtp0+gIM2s+9HQvK535F8UwYfH1QJBAM1kDU/baWGM9HqctnuUCb0VTOJlkpACDnDrqV47FM0WWyD+oBewn6oTICVfl8RAxo2wpKOiUk6ym+NCUtfnUA8CQQCfuf7XQKcgOmOh1h+CdX8LyADaJqTlJoPpvmTp6lt9GGq3B4sQEhHT9kHwx98HGjXEKg5ldtU4U/oaQDG9knFvAkBSWexweXPuVhrsUotkTz38X179Y2Z5cSmjIwo8qwmzFWSifRVpijrqcVKxSXvLh4FU7F+G8J15ymlwnHYk9S0HAkBYHojVwDlzskLdOgBQPPpGSaUOtVsrgMAt6HhMBJtMvHfDWkoCJ7XmNmnSqLIGfRNEkd83YwPm+41zhg7rAyvJAkEAgEVw0plyzpRupl/ySHM09+LJrD9oNlt5nCkPXTs0YSmoqzFjy7QFzfm5KMhNl3cRnfm6Vsiwsrn4F9JrtzTIdw==
+[ INFO ] [2019-11-10 15:31:20] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-10 15:31:21] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-10 15:31:21] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 15:31:21] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 15:31:21] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-10 15:31:21] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 6.194 seconds (JVM running for 12.346)
+[ INFO ] [2019-11-10 15:31:37] [http-nio-8080-exec-2] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-10 15:31:37] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-10 15:31:37] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 10 ms
+[ INFO ] [2019-11-10 15:31:38] [http-nio-8080-exec-2] INFO :  com.wchat.aspect.WsAspect [44] - 原始参数：{"msgType":1,"pageNo":1,"pageSize":10,"pdata":"MM8pl4wXihiyG2+a/O5h0P2hWU9FnpjP6ocvS5vXBLUKjBoSgCR6qoVXTKD7KdzZau2dxaLmoS5Z/REMvgkvPwE5OEbuiLvuHHlEWLPSM7VwWZAkfjCV57Kis2HKWnqowFFkGIy9i1AX/Dim5z0fsg==","pkey":"eZEjSmoLIjBFN4WUBMycXSNTVDbLfpoHfKhRjrjtM2kTxwH1dkAucsg9q+DtjYbdKEoibYmIk6MxiDaZ1CBsG8KkJvsU0hoaEe5xulqC1vTmCi4RIdRby51n7u6xxtGyblFToPDhEnFDyAdIVaIaMFZRTkMJAIOf/w6KeISJDk4="}
+[ INFO ] [2019-11-10 15:31:38] [http-nio-8080-exec-2] INFO :  com.wchat.aspect.WsAspect [54] - 请求：com.wchat.controller.WebSocketController.sendOneMessage解密后参数：{"msg":"rj","otherCode":12,"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ"}
+[ INFO ] [2019-11-10 15:31:38] [http-nio-8080-exec-2] INFO :  com.wchat.aspect.WsAspect [56] - 请求：com.wchat.controller.WebSocketController.sendOneMessagexss后参数：{\"msg\":\"rj\",\"otherCode\":12,\"token\":\"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ\"}
+[ WARN ] [2019-11-10 15:32:58] [http-nio-8080-exec-5] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-10 15:32:58] [http-nio-8080-exec-5] INFO :  com.wchat.aspect.WsAspect [44] - 原始参数：{"msgType":1,"pageNo":1,"pageSize":10,"pdata":"MM8pl4wXihiyG2+a/O5h0P2hWU9FnpjP6ocvS5vXBLUKjBoSgCR6qoVXTKD7KdzZau2dxaLmoS5Z/REMvgkvPwE5OEbuiLvuHHlEWLPSM7VwWZAkfjCV57Kis2HKWnqowFFkGIy9i1AX/Dim5z0fsg==","pkey":"eZEjSmoLIjBFN4WUBMycXSNTVDbLfpoHfKhRjrjtM2kTxwH1dkAucsg9q+DtjYbdKEoibYmIk6MxiDaZ1CBsG8KkJvsU0hoaEe5xulqC1vTmCi4RIdRby51n7u6xxtGyblFToPDhEnFDyAdIVaIaMFZRTkMJAIOf/w6KeISJDk4="}
+[ INFO ] [2019-11-10 15:32:58] [http-nio-8080-exec-5] INFO :  com.wchat.aspect.WsAspect [54] - 请求：com.wchat.controller.WebSocketController.sendOneMessage解密后参数：{"msg":"rj","otherCode":12,"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ"}
+[ INFO ] [2019-11-10 15:32:58] [http-nio-8080-exec-5] INFO :  com.wchat.aspect.WsAspect [56] - 请求：com.wchat.controller.WebSocketController.sendOneMessagexss后参数：{"msg":"rj","otherCode":12,"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ"}
+[ INFO ] [2019-11-10 15:32:58] [http-nio-8080-exec-5] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ WARN ] [2019-11-10 15:32:59] [http-nio-8080-exec-5] WARN :  com.wchat.socket.WebSocketServer [122] - 没有找到你指定ID的会话：10
+[ WARN ] [2019-11-10 15:34:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ WARN ] [2019-11-10 15:37:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ WARN ] [2019-11-10 15:37:29] [http-nio-8080-exec-7] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-10 15:37:29] [http-nio-8080-exec-7] INFO :  com.wchat.aspect.WsAspect [44] - 原始参数：{"msgType":1,"pageNo":1,"pageSize":10,"pdata":"MM8pl4wXihiyG2+a/O5h0P2hWU9FnpjP6ocvS5vXBLUKjBoSgCR6qoVXTKD7KdzZau2dxaLmoS5Z/REMvgkvPwE5OEbuiLvuHHlEWLPSM7VwWZAkfjCV57Kis2HKWnqowFFkGIy9i1AX/Dim5z0fsg==","pkey":"eZEjSmoLIjBFN4WUBMycXSNTVDbLfpoHfKhRjrjtM2kTxwH1dkAucsg9q+DtjYbdKEoibYmIk6MxiDaZ1CBsG8KkJvsU0hoaEe5xulqC1vTmCi4RIdRby51n7u6xxtGyblFToPDhEnFDyAdIVaIaMFZRTkMJAIOf/w6KeISJDk4="}
+[ INFO ] [2019-11-10 15:37:29] [http-nio-8080-exec-7] INFO :  com.wchat.aspect.WsAspect [54] - 请求：com.wchat.controller.WebSocketController.sendOneMessage解密后参数：{"msg":"rj","otherCode":12,"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ"}
+[ INFO ] [2019-11-10 15:37:29] [http-nio-8080-exec-7] INFO :  com.wchat.aspect.WsAspect [56] - 请求：com.wchat.controller.WebSocketController.sendOneMessage过滤xss后参数：{"msg":"rj","otherCode":12,"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ"}
+[ WARN ] [2019-11-10 15:37:29] [http-nio-8080-exec-7] WARN :  com.wchat.socket.WebSocketServer [122] - 没有找到你指定ID的会话：10
+[ WARN ] [2019-11-10 15:38:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-10 15:38:11] [http-nio-8080-exec-10] INFO :  com.wchat.aspect.WsAspect [44] - 原始参数：{"msgType":1,"pageNo":1,"pageSize":10,"pdata":"MM8pl4wXihiyG2+a/O5h0P2hWU9FnpjP6ocvS5vXBLUKjBoSgCR6qoVXTKD7KdzZau2dxaLmoS5Z/REMvgkvPwE5OEbuiLvuHHlEWLPSM7VwWZAkfjCV57Kis2HKWnqowFFkGIy9i1AX/Dim5z0fsg==","pkey":"eZEjSmoLIjBFN4WUBMycXSNTVDbLfpoHfKhRjrjtM2kTxwH1dkAucsg9q+DtjYbdKEoibYmIk6MxiDaZ1CBsG8KkJvsU0hoaEe5xulqC1vTmCi4RIdRby51n7u6xxtGyblFToPDhEnFDyAdIVaIaMFZRTkMJAIOf/w6KeISJDk4="}
+[ INFO ] [2019-11-10 15:38:11] [http-nio-8080-exec-10] INFO :  com.wchat.aspect.WsAspect [54] - 请求：com.wchat.controller.WebSocketController.sendOneMessage解密后参数：{"msg":"rj","otherCode":12,"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ"}
+[ INFO ] [2019-11-10 15:38:11] [http-nio-8080-exec-10] INFO :  com.wchat.aspect.WsAspect [56] - 请求：com.wchat.controller.WebSocketController.sendOneMessage过滤xss后参数：{"msg":"rj","otherCode":12,"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhLb83lN+9weCYwxtTlINzVZ"}
+[ WARN ] [2019-11-10 15:38:12] [http-nio-8080-exec-10] WARN :  com.wchat.socket.WebSocketServer [122] - 没有找到你指定ID的会话：10
+[ WARN ] [2019-11-10 15:39:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-10 15:46:49] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 15:46:49] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-10 15:46:49] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-10 15:47:00] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on xiaoxin700 with PID 20844 (C:\Users\anyan\Desktop\wchat\target\classes started by anyan in C:\Users\anyan\Desktop\wchat)
+[ INFO ] [2019-11-10 15:47:00] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-10 15:47:02] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-10 15:47:02] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 15:47:02] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-10 15:47:02] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-10 15:47:02] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-10 15:47:02] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2481 ms
+[ INFO ] [2019-11-10 15:47:03] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-10 15:47:03] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCaNUUg1aUzpv6/NNJOAcChzQ28E1yBcZtbf8vzPWvwzYMUKhfeAxdv+NzZ3lZlraiLx8rcV98EvSMF7JjDG8hYaPgffvnkm5DsMZ3Ae+L77nqVYIZ7I+fN9uSsdHeINshjCznAcTcMYxiuwT03laJM3jhjiM3he1Veuw9liz4LvQIDAQAB
+[ INFO ] [2019-11-10 15:47:03] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAJo1RSDVpTOm/r800k4BwKHNDbwTXIFxm1t/y/M9a/DNgxQqF94DF2/43NneVmWtqIvHytxX3wS9IwXsmMMbyFho+B9++eSbkOwxncB74vvuepVghnsj58325Kx0d4g2yGMLOcBxNwxjGK7BPTeVokzeOGOIzeF7VV67D2WLPgu9AgMBAAECgYAXl1KuBUEyt7d9NO1/dZEsr5wMS8H5I5Iq21AuNBVRT39gFFh2ZG6veJkA05zQDVMdn0EPmHnL1cuH2nw8TQHHFm/JGNo2bhbdqPb6w+0j3RaX/Qq7/v6gqkSLeLYiBktNohM83m/AD+6/lZfm/ZAnreXmQvchaoFC8wLtb3S/gQJBAPfNS1/UWtYhKnYyYUsiqo5WI8wIRHrEpj8LDbBmo+9jivnw0vRCXMem2WVE6NxUvHjRTHwOnsKsPZzapMb7A5ECQQCfT01w7EJSCufIEVji0zfWC37Q1gXL2NxsFiQ5OWuYm6QY0hH1W0Rs2cR/k7CvNqd6JZEUELP/bCtF/ZbHk5dtAkEAgVj+7DGrjLRZNsNLd+3Le2rJWrpCDJdTc/rwFVEuZ0ndhGPJqchuJ6UXOz5CEqiEjMgrlWIISvOfYZ3bfyYNkQJAARbJsLvsuCLa8sMrmGFZQF1TwJm18G7LEvITzVBXK/Pka0cEWGkHTrcuYLDhxFDbVDptg3WZxWU35oKVRUf9AQJBAO/0hA7s6Ih5WGajY439YN3KtzCbSIJ1tC3MCrciUiRTBqLZ3s09ENQlufqJy79e5SGgOHgFv9L8Eqwqt7dWYmM=
+[ INFO ] [2019-11-10 15:47:04] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-10 15:47:04] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-10 15:47:04] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 15:47:04] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 15:47:04] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-10 15:47:04] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 5.289 seconds (JVM running for 11.753)
+[ INFO ] [2019-11-10 15:47:22] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 15:47:22] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-10 15:47:28] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on xiaoxin700 with PID 21176 (C:\Users\anyan\Desktop\wchat\target\classes started by anyan in C:\Users\anyan\Desktop\wchat)
+[ INFO ] [2019-11-10 15:47:28] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-10 15:47:30] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-10 15:47:30] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 15:47:30] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-10 15:47:30] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-10 15:47:30] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-10 15:47:30] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 1871 ms
+[ INFO ] [2019-11-10 15:47:30] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-10 15:47:31] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCAP/KSjdL174eVnzXFqs/Ncds4tYW18dlym2cJ1aL+aiewEuLpz7wUZ8nccPza730zmc+o9w/NOiIbKrWtZc2JMku7F/1HXMrwRN1KxY8HgQKxod+rmyf7l4+k628IHHcyzKNweuKsZT4AYHyu/hPlAbjbn4w19wZvqhaBzhDazQIDAQAB
+[ INFO ] [2019-11-10 15:47:31] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAIA/8pKN0vXvh5WfNcWqz81x2zi1hbXx2XKbZwnVov5qJ7AS4unPvBRnydxw/NrvfTOZz6j3D806Ihsqta1lzYkyS7sX/UdcyvBE3UrFjweBArGh36ubJ/uXj6TrbwgcdzLMo3B64qxlPgBgfK7+E+UBuNufjDX3Bm+qFoHOENrNAgMBAAECgYBKNLYGVklaQ94PlK9oUA0sslRF28IiJG3NAl38MsC8tG+CUWs6HhiVNfh2tGmZxDiNQtIE0e8ysBBL58p3KhBiHtrZQvATXVT/MAVEXOwzODwzlXsZUd/FKWbsschMHWrZBUWE1liOSob2JQHp9aNbLsqxNrqov55Ecd0VCSTXgQJBAMqPzsSxl7NtM101KsvdE9vSoL9xR2mzrGTAVmrikbGgLWk0Raup/VHpRsu314ZO1gGOJ4l/mh6lWq/fjbq6DAcCQQCiFWoSbCgeLxkeETIbgCet8OeAr1FPh5jN1yaVy1eztE3d72xLrKmnYvqGx8PdpdYPrnvoYs9MxiiHDvDLAlWLAkEArvX989ktnhZhek21FHd1crcAj7tponxGGJQlUJc4nsMq1icHUpo2qyyiMM4vg9vOb3N45QPpfDT5GtYuli2iuwJAUd59MIb/EJf7mOtYovltkXeAh8iGSqSUM0y8iacnSncFade4nNS+8PSW1KNstLVCVbNtlOjsCryA1g9e4zvvlwJBALVSkjQd4q7tRcOiRtLZosdncPTz/hZOgZJvGspceMhkk6odztSZHk39RImFYY4sylCEdZN/ncDzJb6Od08hWFo=
+[ INFO ] [2019-11-10 15:47:31] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-10 15:47:31] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-10 15:47:31] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 15:47:31] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-10 15:47:31] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-10 15:47:31] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 4.052 seconds (JVM running for 5.594)
+[ INFO ] [2019-11-10 17:10:58] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-10 17:10:58] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'

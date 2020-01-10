@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wchat.dao.UserDao">
+
+
+    <sql id="base">
+        code,username as userName,uuid,session_id as sessionId,status,email
+    </sql>
+    <insert id="insertUser" parameterType="com.wchat.bean.WsParamBean">
+        insert into w_user (username, pw,email)
+        values (#{bean.userName},#{bean.pw},#{bean.email})
+    </insert>
+
+    <select id="queryUserByUserName" resultType="com.wchat.bean.WsParamBean">
+        select <include refid="base" /> from w_user u where u.username = #{userName} limit 1
+    </select>
+    <select id="getUserPw" resultType="string">
+        select pw from w_user where code = #{code}
+    </select>
+
+
+    <update id="update4Login" parameterType="com.wchat.bean.WsParamBean">
+        update w_user set uuid = #{bean.uuid}
+         where code = #{bean.code}
+    </update>
+    <update id="update4Offline">
+        update w_user set session_id = null,uuid = null,status = 0
+         where code = #{bean.code}
+    </update>
+
+
+    <select id="getUserByCode" resultType="com.wchat.bean.WsParamBean">
+        select <include refid="base"/> from w_user where code = #{code}
+    </select>
+
+    <insert id="insertMsgLog" parameterType="com.wchat.bean.MsgLogBean">
+        insert into w_msg_log (`create`,send_code,send_name,accept_code,accept_name,msg)
+        values (#{bean.create},#{bean.sendCode},#{bean.sendName},#{bean.acceptCode},#{bean.acceptName},#{bean.msg})
+    </insert>
+
+    <update id="update4SystemInit">
+        update w_user set session_id = null,uuid = null,status = 0
+    </update>
+    <select id="queryUserByStatus" resultType="com.wchat.bean.WsParamBean">
+        select code,username as userName from w_user where status = #{status} and not code = #{code}
+    </select>
+    <select id="queryMsgAllByCode" resultType="com.wchat.bean.MsgLogBean">
+        select `create`,send_code as sendCode,accept_code as acceptCode,msg
+         from w_msg_log where (send_code = #{code} and accept_code = #{otherCode}) or
+          (send_code = #{otherCode} and accept_code = #{code}) order by `create` asc
+    </select>
+    <update id="update4SessionId"  parameterType="com.wchat.bean.WsParamBean">
+        update w_user set session_id = #{bean.sessionId},status = 1 where code = #{bean.code}
+    </update>
+    <update id="update4newPw" parameterType="com.wchat.bean.WsParamBean">
+        update w_user set pw = #{bean.pw} where code = #{bean.code}
+    </update>
+</mapper>

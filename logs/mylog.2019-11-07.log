@@ -1,0 +1,366 @@
+[ INFO ] [2019-11-07 16:30:57] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 10076 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 16:30:57] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 16:31:02] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 16:31:03] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 16:31:03] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 16:31:03] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 16:31:03] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 16:31:03] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 5637 ms
+[ INFO ] [2019-11-07 16:31:04] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-07 16:31:04] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:Sun RSA public key, 1024 bits
+  modulus: 124071900412982031147071743701907062086803757141178361441014650009160207298377854675537518789576550602498816245519735185048393608538431736073618214757003608878990938920868804858745710140442045803995734010888783585879288754606292138933576519910805597321806824402903943516963840050798369513645609557807090913411
+  public exponent: 65537
+[ INFO ] [2019-11-07 16:31:04] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@fff9fc19
+[ INFO ] [2019-11-07 16:31:05] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-07 16:31:05] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-07 16:31:06] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 16:31:06] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-07 16:31:06] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 11.6 seconds (JVM running for 27.187)
+[ INFO ] [2019-11-07 16:31:16] [http-nio-8080-exec-2] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 16:31:16] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 16:31:16] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 22 ms
+[ INFO ] [2019-11-07 16:31:30] [http-nio-8080-exec-2] INFO :  com.wchat.aspect.WsAspect [50] - 请求：com.wchat.controller.WebSocketController.getLineList解密后参数：{"code":1,"sessionId":24}
+[ WARN ] [2019-11-07 16:47:07] [http-nio-8080-exec-5] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ WARN ] [2019-11-07 16:59:49] [http-nio-8080-exec-8] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ WARN ] [2019-11-07 17:47:11] [http-nio-8080-exec-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-07 17:47:12] [http-nio-8080-exec-1] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1"}
+[ INFO ] [2019-11-07 17:47:13] [http-nio-8080-exec-1] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ INFO ] [2019-11-07 17:47:52] [http-nio-8080-exec-2] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1"}
+[ INFO ] [2019-11-07 17:49:00] [http-nio-8080-exec-4] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1"}
+[ INFO ] [2019-11-07 18:01:43] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-07 18:01:44] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-07 18:01:58] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 5356 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 18:01:58] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 18:02:01] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 18:02:01] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:02:01] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 18:02:01] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 18:02:01] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 18:02:01] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 3247 ms
+[ INFO ] [2019-11-07 18:02:02] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-07 18:02:02] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:Sun RSA public key, 1024 bits
+  modulus: 128379845428585037993298691856474024330090524132762379583445697218186895003775824849337652698290501647944971138902812627237244828376671137935622481369686832622787675999824532763918125167093470854596088028258120646681297303010674362229284311693268440122954219663265700256903561922737247910657710747797266727843
+  public exponent: 65537
+[ INFO ] [2019-11-07 18:02:02] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@ffe5f28e
+[ INFO ] [2019-11-07 18:02:03] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-07 18:02:03] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-07 18:02:03] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:02:03] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-07 18:02:03] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 7.685 seconds (JVM running for 16.525)
+[ INFO ] [2019-11-07 18:09:17] [http-nio-8080-exec-2] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:09:17] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:09:17] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 13 ms
+[ INFO ] [2019-11-07 18:25:15] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-07 18:25:28] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 8056 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 18:25:28] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 18:25:30] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 18:25:30] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:25:30] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 18:25:30] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 18:25:31] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 18:25:31] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2191 ms
+[ INFO ] [2019-11-07 18:25:31] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-07 18:25:31] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:Sun RSA public key, 1024 bits
+  modulus: 132445003058330762976482620666336963718637819181862079324745578436450018195293310534520420780686487041124460999490147173879363456854079517609825431657044512811045453731208542628510362189787570602088680125853319391961926340336156482178346518610646564301210188412088312621269408512694820418581560422440876571221
+  public exponent: 65537
+[ INFO ] [2019-11-07 18:25:31] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@c9bd0
+[ INFO ] [2019-11-07 18:25:32] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-07 18:25:32] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-07 18:25:32] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:25:32] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-07 18:25:32] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 4.837 seconds (JVM running for 10.867)
+[ INFO ] [2019-11-07 18:26:18] [http-nio-8080-exec-2] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:26:18] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:26:18] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 13 ms
+[ WARN ] [2019-11-07 18:27:47] [http-nio-8080-exec-4] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-07 18:27:47] [http-nio-8080-exec-4] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:27:47] [http-nio-8080-exec-4] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ INFO ] [2019-11-07 18:28:03] [http-nio-8080-exec-6] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:05] [http-nio-8080-exec-8] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:06] [http-nio-8080-exec-9] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:06] [http-nio-8080-exec-7] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:06] [http-nio-8080-exec-10] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:06] [http-nio-8080-exec-2] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:07] [http-nio-8080-exec-1] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:07] [http-nio-8080-exec-3] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:07] [http-nio-8080-exec-4] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:07] [http-nio-8080-exec-5] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:07] [http-nio-8080-exec-6] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:08] [http-nio-8080-exec-8] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:08] [http-nio-8080-exec-9] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:08] [http-nio-8080-exec-7] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:08] [http-nio-8080-exec-10] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:09] [http-nio-8080-exec-2] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:09] [http-nio-8080-exec-1] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:09] [http-nio-8080-exec-3] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:09] [http-nio-8080-exec-4] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:09] [http-nio-8080-exec-5] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:10] [http-nio-8080-exec-6] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:10] [http-nio-8080-exec-8] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:10] [http-nio-8080-exec-9] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:28:18] [http-nio-8080-exec-7] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","verifiCode":"ccnn\n"}
+[ INFO ] [2019-11-07 18:30:28] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-07 18:30:28] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-07 18:30:39] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 18844 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 18:30:39] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 18:30:41] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 18:30:41] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:30:41] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 18:30:41] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 18:30:41] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 18:30:41] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2213 ms
+[ INFO ] [2019-11-07 18:30:42] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-07 18:30:42] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:Sun RSA public key, 1024 bits
+  modulus: 125427310626214517998788376342672836950394638281308034874242762530367242948161945006370817062140358118561015197140781807430518252206336155712139310333184873459474840904699488804643678736787809838616594569144078465622160184941853117498905308063803552922989749124276911486462004384587035364063560893640420628799
+  public exponent: 65537
+[ INFO ] [2019-11-07 18:30:42] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@fffc72f5
+[ INFO ] [2019-11-07 18:30:43] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-07 18:30:43] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-07 18:30:43] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:30:43] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-07 18:30:43] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 4.904 seconds (JVM running for 13.732)
+[ INFO ] [2019-11-07 18:32:04] [http-nio-8080-exec-2] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:32:04] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:32:04] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 13 ms
+[ INFO ] [2019-11-07 18:32:20] [http-nio-8080-exec-1] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","uuid":"46941733","verifiCode":"crry"}
+[ INFO ] [2019-11-07 18:32:20] [http-nio-8080-exec-1] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ INFO ] [2019-11-07 18:32:32] [http-nio-8080-exec-3] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","uuid":"46941733","verifiCode":"crry"}
+[ INFO ] [2019-11-07 18:32:58] [http-nio-8080-exec-4] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"1","uuid":"46941733","verifiCode":"crry"}
+[ INFO ] [2019-11-07 18:33:11] [http-nio-8080-exec-6] INFO :  com.wchat.aspect.WsAspect [51] - 请求：com.wchat.controller.WebSocketController.registerUser解密后参数：{"publicKey":"2","pw":"1","sessionId":"2","userName":"jjjjjj","uuid":"46941733","verifiCode":"crry"}
+[ INFO ] [2019-11-07 18:37:19] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-07 18:37:19] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-07 18:37:40] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 18812 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 18:37:40] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 18:37:43] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 18:37:43] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:37:43] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 18:37:43] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 18:37:43] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 18:37:43] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2565 ms
+[ INFO ] [2019-11-07 18:37:44] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-07 18:37:44] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:Sun RSA public key, 1024 bits
+  modulus: 115565764967509926815464111213686142153234806956781742187834357820963766675368144849653514493128087691743841358459585244468688416087427255331263634524214263032001139636174178618642912041828408722833926672400154469307805677691977868290581805218713456703082561912160217362594616457061723153208486445082078683313
+  public exponent: 65537
+[ INFO ] [2019-11-07 18:37:44] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@31d97
+[ INFO ] [2019-11-07 18:37:44] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-07 18:37:45] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-07 18:37:45] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:37:45] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-07 18:37:45] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 6.1 seconds (JVM running for 16.486)
+[ INFO ] [2019-11-07 18:38:52] [http-nio-8080-exec-1] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:38:52] [http-nio-8080-exec-1] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:38:52] [http-nio-8080-exec-1] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 11 ms
+[ INFO ] [2019-11-07 18:38:56] [http-nio-8080-exec-1] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ INFO ] [2019-11-07 18:39:54] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-07 18:39:54] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-07 18:40:10] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 14864 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 18:40:10] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 18:40:12] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 18:40:12] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:40:12] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 18:40:12] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 18:40:12] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 18:40:12] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2321 ms
+[ INFO ] [2019-11-07 18:40:13] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-07 18:40:13] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:Sun RSA public key, 1024 bits
+  modulus: 103309730329764181275310867258902485754046331102667795915061693849639784725747526624823511167923423296233784066649491798043296936701431716801371281372430380005300409073879993144670893432968443877195639164302395943899696375629813881038429173064924780469854412760688616608304566275993261400909329185293383396909
+  public exponent: 65537
+[ INFO ] [2019-11-07 18:40:13] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@fff153ba
+[ INFO ] [2019-11-07 18:40:14] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-07 18:40:14] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-07 18:40:14] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:40:14] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-07 18:40:14] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 6.158 seconds (JVM running for 12.911)
+[ INFO ] [2019-11-07 18:40:19] [http-nio-8080-exec-1] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:40:19] [http-nio-8080-exec-1] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:40:19] [http-nio-8080-exec-1] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 16 ms
+[ INFO ] [2019-11-07 18:40:23] [http-nio-8080-exec-1] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ INFO ] [2019-11-07 18:41:29] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-07 18:41:29] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-07 18:41:44] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 18108 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 18:41:44] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 18:41:46] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 18:41:46] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:41:46] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 18:41:46] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 18:41:46] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 18:41:46] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2094 ms
+[ INFO ] [2019-11-07 18:41:47] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-07 18:41:47] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:Sun RSA public key, 1024 bits
+  modulus: 124804381208559427701892262261072650109756212630214664736360811428319825253312996374847374428775306191242147927939190565554453877903226550566149608623194040706533144729041310602162009050484943418238075417519508146816514543998096103860791185810792835355992593510755288062058218948754717858607918557463763667923
+  public exponent: 65537
+[ INFO ] [2019-11-07 18:41:47] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@8216a
+[ INFO ] [2019-11-07 18:41:47] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-07 18:41:47] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-07 18:41:48] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:41:48] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-07 18:41:48] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 5.129 seconds (JVM running for 13.0)
+[ INFO ] [2019-11-07 18:41:53] [http-nio-8080-exec-2] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:41:53] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:41:53] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 16 ms
+[ INFO ] [2019-11-07 18:41:58] [http-nio-8080-exec-2] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ INFO ] [2019-11-07 18:43:33] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-07 18:43:33] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-07 18:43:46] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 11100 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 18:43:46] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 18:43:48] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 18:43:48] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:43:48] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 18:43:48] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 18:43:48] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 18:43:48] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2134 ms
+[ INFO ] [2019-11-07 18:43:49] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-07 18:43:49] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:Sun RSA public key, 1024 bits
+  modulus: 99791872879274480793568356214809517387424509120602671435112819476133066855658003530768200207279376147212548674821533319900252804292670234529152534888508436361730758446093589086459737628563145448743830202653962607034889253570477471306687433183433232574231563497194377275038704073961227450003057791945021774069
+  public exponent: 65537
+[ INFO ] [2019-11-07 18:43:49] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@fff86375
+[ INFO ] [2019-11-07 18:43:49] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-07 18:43:49] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-07 18:43:50] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:43:50] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-07 18:43:50] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 5.206 seconds (JVM running for 12.154)
+[ INFO ] [2019-11-07 18:43:54] [http-nio-8080-exec-2] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:43:54] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:43:54] [http-nio-8080-exec-2] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 22 ms
+[ INFO ] [2019-11-07 18:43:55] [http-nio-8080-exec-2] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ INFO ] [2019-11-07 18:44:14] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-07 18:44:14] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-07 18:44:25] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 5908 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 18:44:25] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 18:44:27] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 18:44:27] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:44:27] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 18:44:27] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 18:44:27] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 18:44:27] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2303 ms
+[ INFO ] [2019-11-07 18:44:28] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-07 18:44:28] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:Sun RSA public key, 1024 bits
+  modulus: 90961607159522654216180438592612418828502615465035991469654389782612646525446903976020896899628543850039653876230328043832924072358556695658878403245092871196372488429484207915122135007645928723478546255430826168394265467567617873170891463861952758541060353811998445318416158243795672586473864674340074551821
+  public exponent: 65537
+[ INFO ] [2019-11-07 18:44:28] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@fffcdcd5
+[ INFO ] [2019-11-07 18:44:28] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-07 18:44:29] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-07 18:44:29] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:44:29] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-07 18:44:29] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 5.411 seconds (JVM running for 12.205)
+[ INFO ] [2019-11-07 18:44:33] [http-nio-8080-exec-1] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:44:33] [http-nio-8080-exec-1] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-07 18:44:33] [http-nio-8080-exec-1] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 16 ms
+[ INFO ] [2019-11-07 18:44:33] [http-nio-8080-exec-1] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ WARN ] [2019-11-07 18:56:48] [SpringContextShutdownHook] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-07 18:56:49] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-07 18:56:49] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
+[ INFO ] [2019-11-07 18:57:08] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 1972 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 18:57:08] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 18:57:11] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 18:57:11] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:57:11] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 18:57:11] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 18:57:12] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 18:57:12] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 3324 ms
+[ WARN ] [2019-11-07 18:57:12] [main] WARN :  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [558] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'verifiCodeCacheBean' defined in file [C:\Users\Administrator\Desktop\wchat\target\classes\com\wchat\bean\VerifiCodeCacheBean.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'run': Cron expression must consist of 6 fields (found 7 in "5 * * * * ? *")
+[ INFO ] [2019-11-07 18:57:12] [main] INFO :  org.apache.catalina.core.StandardService [173] - Stopping service [Tomcat]
+[ INFO ] [2019-11-07 18:57:12] [main] INFO :  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ ERROR] [2019-11-07 18:57:12] [main] ERROR:  org.springframework.boot.SpringApplication [826] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'verifiCodeCacheBean' defined in file [C:\Users\Administrator\Desktop\wchat\target\classes\com\wchat\bean\VerifiCodeCacheBean.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'run': Cron expression must consist of 6 fields (found 7 in "5 * * * * ? *")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:550)
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.wchat.boot.WchatApplication.main(WchatApplication.java:17)
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'run': Cron expression must consist of 6 fields (found 7 in "5 * * * * ? *")
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:499)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:362)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:362)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1807)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 17 common frames omitted
+[ INFO ] [2019-11-07 18:59:01] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 15148 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 18:59:01] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 18:59:03] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 18:59:03] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 18:59:03] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 18:59:03] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 18:59:03] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 18:59:03] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2349 ms
+[ INFO ] [2019-11-07 18:59:05] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-07 18:59:05] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:Sun RSA public key, 1024 bits
+  modulus: 102956102273126613489824018722676426733327940954964999976141118511321741614709417576821224840530784745136796795241867489173403064416846858116206928463260940150179575156337443806414030783633094639710822769483044678548216946021567388783359284675438857488235965059750758581592074279864888798519595112617607445553
+  public exponent: 65537
+[ INFO ] [2019-11-07 18:59:05] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@fffca17c
+[ WARN ] [2019-11-07 18:59:05] [main] WARN :  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [558] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskService' defined in file [C:\Users\Administrator\Desktop\wchat\target\classes\com\wchat\task\TaskService.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'run': Cron expression must consist of 6 fields (found 7 in "5 * * * * ? *")
+[ INFO ] [2019-11-07 18:59:05] [main] INFO :  org.apache.catalina.core.StandardService [173] - Stopping service [Tomcat]
+[ INFO ] [2019-11-07 18:59:05] [main] INFO :  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ ERROR] [2019-11-07 18:59:05] [main] ERROR:  org.springframework.boot.SpringApplication [826] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskService' defined in file [C:\Users\Administrator\Desktop\wchat\target\classes\com\wchat\task\TaskService.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'run': Cron expression must consist of 6 fields (found 7 in "5 * * * * ? *")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:550)
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.wchat.boot.WchatApplication.main(WchatApplication.java:17)
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'run': Cron expression must consist of 6 fields (found 7 in "5 * * * * ? *")
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:499)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:362)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:362)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1807)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 17 common frames omitted
+[ INFO ] [2019-11-07 19:00:26] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on DESKTOP-OUEVNL0 with PID 14712 (C:\Users\Administrator\Desktop\wchat\target\classes started by Administrator in C:\Users\Administrator\Desktop\wchat)
+[ INFO ] [2019-11-07 19:00:26] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-07 19:00:28] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-07 19:00:28] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 19:00:28] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-07 19:00:28] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-07 19:00:28] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-07 19:00:28] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2007 ms
+[ INFO ] [2019-11-07 19:00:29] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-07 19:00:29] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:Sun RSA public key, 1024 bits
+  modulus: 118472847183507150567242485220417929451919102626342753497345492116624331324294773579131459182225191995425452978399529985569915465613319923075699446792210695260732181171535795428505919326940959978639948016946684421711127222091747435666204758888789550910456299983043733541539082733051581911216890650920990901183
+  public exponent: 65537
+[ INFO ] [2019-11-07 19:00:29] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@6c6c6
+[ INFO ] [2019-11-07 19:00:30] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-07 19:00:30] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-07 19:00:30] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-07 19:00:30] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-07 19:00:30] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-07 19:00:30] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 5.721 seconds (JVM running for 12.286)
+[ INFO ] [2019-11-07 19:07:31] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-07 19:07:31] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'

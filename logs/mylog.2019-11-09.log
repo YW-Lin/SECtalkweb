@@ -1,0 +1,330 @@
+[ WARN ] [2019-11-09 10:29:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ WARN ] [2019-11-09 10:31:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ WARN ] [2019-11-09 10:32:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-09 15:56:54] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on xiaoxin700 with PID 21748 (C:\Users\anyan\Desktop\wchat\target\classes started by anyan in C:\Users\anyan\Desktop\wchat)
+[ INFO ] [2019-11-09 15:56:54] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-09 15:56:56] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-09 15:56:56] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-09 15:56:56] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-09 15:56:56] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-09 15:56:57] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-09 15:56:57] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2150 ms
+[ INFO ] [2019-11-09 15:56:57] [main] INFO :  com.wchat.boot.KeyCache [27] - system init build SecurityKey
+[ INFO ] [2019-11-09 15:56:58] [main] INFO :  com.wchat.boot.KeyCache [32] - public key:X.509
+[ INFO ] [2019-11-09 15:56:58] [main] INFO :  com.wchat.boot.KeyCache [33] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@15a55
+[ INFO ] [2019-11-09 15:56:58] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-09 15:56:58] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-09 15:56:58] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-09 15:56:58] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-09 15:56:58] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-09 15:56:58] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 4.905 seconds (JVM running for 8.213)
+[ INFO ] [2019-11-09 15:57:22] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-09 15:57:22] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-09 15:57:30] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on xiaoxin700 with PID 18260 (C:\Users\anyan\Desktop\wchat\target\classes started by anyan in C:\Users\anyan\Desktop\wchat)
+[ INFO ] [2019-11-09 15:57:30] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-09 15:57:32] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-09 15:57:32] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-09 15:57:32] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-09 15:57:32] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-09 15:57:32] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-09 15:57:32] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2038 ms
+[ INFO ] [2019-11-09 15:57:33] [main] INFO :  com.wchat.boot.KeyCache [27] - system init build SecurityKey
+[ INFO ] [2019-11-09 15:57:33] [main] INFO :  com.wchat.boot.KeyCache [32] - public key:Sun RSA public key, 1024 bits
+  modulus: 99690315351353949953562228139968041542412365825305363240307352284067388535534824096193670732688079714218155478064770184773257943141615138824065525770709560277205688111217176063813892906518782148240549845881570626630469049747995564857766559325294248733985979612511534248789782425284991667389893633010527436073
+  public exponent: 65537
+[ INFO ] [2019-11-09 15:57:33] [main] INFO :  com.wchat.boot.KeyCache [33] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@ffe4d54b
+[ INFO ] [2019-11-09 15:57:34] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-09 15:57:34] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-09 15:57:34] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-09 15:57:34] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-09 15:57:34] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-09 15:57:34] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 4.945 seconds (JVM running for 6.733)
+[ INFO ] [2019-11-09 15:58:12] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-09 15:58:12] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-09 15:58:19] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on xiaoxin700 with PID 22376 (C:\Users\anyan\Desktop\wchat\target\classes started by anyan in C:\Users\anyan\Desktop\wchat)
+[ INFO ] [2019-11-09 15:58:19] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-09 15:58:21] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-09 15:58:21] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-09 15:58:21] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-09 15:58:21] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-09 15:58:21] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-09 15:58:21] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 2120 ms
+[ INFO ] [2019-11-09 15:58:22] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-09 15:58:22] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCprIzFK3+YY4v+Vxr/S1xrBbIvzDYZFVw39fdllBOJwKUVa9Bw5jmkTk080CZkzc5qCAb0EELCRLjkjudOoNmv3cUxw2336tgWeWLPgZSAR28sE8KRFHqWvuj4DQsyLpAufwXtc28zBEyKDrLpIbkm3YH8oUeoH305q4b4YXHrSwIDAQAB
+[ INFO ] [2019-11-09 15:58:22] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:sun.security.rsa.RSAPrivateCrtKeyImpl@fffe122e
+[ INFO ] [2019-11-09 15:58:22] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-09 15:58:23] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-09 15:58:23] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-09 15:58:23] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-09 15:58:23] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-09 15:58:23] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 4.467 seconds (JVM running for 6.247)
+[ INFO ] [2019-11-09 17:27:45] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-09 17:27:45] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-09 17:27:55] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on xiaoxin700 with PID 18920 (C:\Users\anyan\Desktop\wchat\target\classes started by anyan in C:\Users\anyan\Desktop\wchat)
+[ INFO ] [2019-11-09 17:27:55] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-09 17:27:57] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-09 17:27:57] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-09 17:27:57] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-09 17:27:57] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-09 17:27:57] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-09 17:27:57] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 1521 ms
+[ INFO ] [2019-11-09 17:27:58] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-09 17:27:58] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEvzOn31QcPMKssdZqUMjoYRBuiX2ie+k4Rg/zPFumewArYn7tcmcEWfWUNtlPeqEjkylDv+qJNFyqufsjZPdqCOQxtiHMyDjpBMvE6StiMvZyHgiFvLTglX4LkW+YstOFvwVQbiOdQiU7aUffvDOko5Ijgi7IAxdPWcA07ge5SQIDAQAB
+[ INFO ] [2019-11-09 17:27:58] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAMS/M6ffVBw8wqyx1mpQyOhhEG6JfaJ76ThGD/M8W6Z7ACtifu1yZwRZ9ZQ22U96oSOTKUO/6ok0XKq5+yNk92oI5DG2IczIOOkEy8TpK2Iy9nIeCIW8tOCVfguRb5iy04W/BVBuI51CJTtpR9+8M6SjkiOCLsgDF09ZwDTuB7lJAgMBAAECgYAvCuCZBQchcU3C6QqxhPtkxMCfDXTiwunysJ3jtMzdM4/Iz9Y1hCMpoTDc7XhsTo/055z4PA0iHUkC8VEhF2Uoo/zH5SIbMgkoV9oLlYBsU8oTHwZifZkGUa66SjOvE1vhDWzBklanA0rT2KFlFCFbegM8M/ixxCI6hZGvN+v5WQJBAORZ+1CChCAl5SOk8ZnVrTFnDuM/TdTpzSilm2+UE4S+Y2uXBZHWeVPLUXl+/LXQ5VLmQac7A5ePErTAWrJS0VsCQQDckZlFA31CWsskIHaWuiZAF2TpJFqSns3Z1BfEUAO1gBGscApgh2iUb21kgh6x+1+fofIjzOO9pEsGO8vUmd0rAkAKIshZ+YEd4DC8lUy4FFj8sWNiyOOOiNY3cKpmmH8JTF4jX2+62ndGNecm6nETLPOQ63GMl70AFDSzWzprYeuzAkAdtFYJ31BtMUEOWnjeD6+7Det/InA4Mr7SSSfyPjxhox++M1CSc2n4I5F96bAslAfqvaqYe61oCso3yrHGrfoFAkBIVMmy0fRdC761uZbJfnbHwjslGmX0RmvyxlDQYTVJBQFxjLlYnkaqw6NY8Z1PePxGaYUJDQe5JU2NXpkA0gSr
+[ INFO ] [2019-11-09 17:27:58] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-09 17:27:58] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-09 17:27:58] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-09 17:27:58] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-09 17:27:58] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-09 17:27:58] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 4.567 seconds (JVM running for 6.771)
+[ INFO ] [2019-11-09 17:36:50] [http-nio-8080-exec-1] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-09 17:36:50] [http-nio-8080-exec-1] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-09 17:36:50] [http-nio-8080-exec-1] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 24 ms
+[ ERROR] [2019-11-09 17:36:51] [http-nio-8080-exec-1] ERROR:  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.wchat.bean.ResultBean cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: com.wchat.bean.ResultBean cannot be cast to java.lang.String
+	at com.wchat.controller.WebSocketController$$EnhancerBySpringCGLIB$$70f32cbd.getLineList(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[ ERROR] [2019-11-09 17:37:24] [http-nio-8080-exec-4] ERROR:  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.wchat.bean.ResultBean cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: com.wchat.bean.ResultBean cannot be cast to java.lang.String
+	at com.wchat.controller.WebSocketController$$EnhancerBySpringCGLIB$$70f32cbd.getLineList(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[ ERROR] [2019-11-09 17:38:59] [http-nio-8080-exec-5] ERROR:  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.wchat.bean.ResultBean cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: com.wchat.bean.ResultBean cannot be cast to java.lang.String
+	at com.wchat.controller.WebSocketController$$EnhancerBySpringCGLIB$$70f32cbd.getLineList(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[ ERROR] [2019-11-09 17:39:20] [http-nio-8080-exec-9] ERROR:  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.wchat.bean.ResultBean cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: com.wchat.bean.ResultBean cannot be cast to java.lang.String
+	at com.wchat.controller.WebSocketController$$EnhancerBySpringCGLIB$$70f32cbd.getLineList(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[ INFO ] [2019-11-09 17:39:29] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-09 17:39:29] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-09 17:39:46] [main] INFO :  com.wchat.boot.WchatApplication [55] - Starting WchatApplication on xiaoxin700 with PID 23520 (C:\Users\anyan\Desktop\wchat\target\classes started by anyan in C:\Users\anyan\Desktop\wchat)
+[ INFO ] [2019-11-09 17:39:46] [main] INFO :  com.wchat.boot.WchatApplication [651] - No active profile set, falling back to default profiles: default
+[ INFO ] [2019-11-09 17:39:49] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [92] - Tomcat initialized with port(s): 8080 (http)
+[ INFO ] [2019-11-09 17:39:49] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-09 17:39:49] [main] INFO :  org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[ INFO ] [2019-11-09 17:39:49] [main] INFO :  org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[ INFO ] [2019-11-09 17:39:49] [main] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2019-11-09 17:39:49] [main] INFO :  org.springframework.web.context.ContextLoader [284] - Root WebApplicationContext: initialization completed in 3142 ms
+[ INFO ] [2019-11-09 17:39:50] [main] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-09 17:39:50] [main] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWq1JwESLKzZ5zb+L5XvvWOFY+sczh3dDqqFWPxeu5Uet4AzY9C7G4hwukg2ev517mLopQ/jb1jFfWPXw3Bn8u7D0IvPbWLtI3l1y27swLKxC0KyxNn4VC6FxGDnOCgIge/sBg5qvbuW0qZKvfCmz+Q5wM1hiRnwno6KQ8gseBvQIDAQAB
+[ INFO ] [2019-11-09 17:39:50] [main] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAJarUnARIsrNnnNv4vle+9Y4Vj6xzOHd0OqoVY/F67lR63gDNj0LsbiHC6SDZ6/nXuYuilD+NvWMV9Y9fDcGfy7sPQi89tYu0jeXXLbuzAsrELQrLE2fhULoXEYOc4KAiB7+wGDmq9u5bSpkq98KbP5DnAzWGJGfCejopDyCx4G9AgMBAAECgYANjXWJ3RC7G0nAanUJJ1ER0Nl5JDcgrfon0WJ43z232rWKgwdy8EVZKtSSRLuj5/TyUYdhh6xb4/bWr4sny+7OnjiXRD7KI/3jXouuOsPZUCVo8BPzs2ZYCobQkk/uUsMgE3QJjL+catvXKelvaK7s1M8mgvmekO3fwDNuMVMq4QJBAP08cZlEzF6hBbJBlo11oWalTAV8N47Eu+z6+HkNKEsI0ARkGPRcORKDANXmnzhBaHLNHenr39+jAcLd/FSuvnUCQQCYUEzuMQBE1bkFENgZVTGd6YOddplUMRHozLx9XPHTHdKfVVUoU6q1fq4xgeyRJWVzLmoeU5/gIGRX4YFq4N0pAkBolGKxkkj4N3V7xTxglRifpFn91eu3ySV227pre3SNcEk/1vq7R67GJ1XcAE7204RIDM9ywFeHKvFaQYSokDXVAkAlSHKsU15HezFA5jCfctUkXEaVQrShgSlrHMJ+xUOEc+Zcjhy8NE6zAoFNKQppNQgyO4hKSBn4WLV3NYHiUYyRAkEA3YKClnCI7oMtU9Pc8QKXlPkGoVkPWN68zgoD56U8OcXSZwFVzK8jFJCA4fMSVyk7q7GBMm7kVEesWkC6vVkcTQ==
+[ INFO ] [2019-11-09 17:39:50] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ WARN ] [2019-11-09 17:39:50] [main] WARN :  o.s.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[ INFO ] [2019-11-09 17:39:51] [main] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-09 17:39:51] [main] INFO :  org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[ INFO ] [2019-11-09 17:39:51] [main] INFO :  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[ INFO ] [2019-11-09 17:39:51] [main] INFO :  com.wchat.boot.WchatApplication [61] - Started WchatApplication in 7.129 seconds (JVM running for 14.682)
+[ INFO ] [2019-11-09 17:39:59] [http-nio-8080-exec-1] INFO :  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] [2019-11-09 17:39:59] [http-nio-8080-exec-1] INFO :  org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+[ INFO ] [2019-11-09 17:39:59] [http-nio-8080-exec-1] INFO :  org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 15 ms
+[ INFO ] [2019-11-09 17:40:09] [http-nio-8080-exec-1] INFO :  com.wchat.aspect.WsAspect [52] - 请求：com.wchat.controller.WebSocketController.getLineList解密后参数：{"token":"Wxn/VQ4G1ZB33e8hR3DVITsGwH4a1lo1NXlqlNmCBhKcXzaRmDXvZyeTDkQKo1++","sessionId":24}
+[ INFO ] [2019-11-09 17:40:09] [http-nio-8080-exec-1] INFO :  com.alibaba.druid.pool.DruidDataSource [930] - {dataSource-1} inited
+[ WARN ] [2019-11-09 17:42:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-09 17:43:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-09 17:43:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdEDuhyabKBYl5l03TyBZyqbft5SGKLnaJa9vOdJuuaRgCP1/fppXO4vnbfMb+BIdj/nygR6Qp2NHelnnIByrd8M1wfC6eJZeGTv9yabuiPDfTssksQjGKxRMpUHGwH5uEKL8qXF5li4tt7LquJTVMK1wZmPKuuQqHEt+OJDwBhQIDAQAB
+[ INFO ] [2019-11-09 17:43:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAN0QO6HJpsoFiXmXTdPIFnKpt+3lIYoudolr2850m65pGAI/X9+mlc7i+dt8xv4Eh2P+fKBHpCnY0d6WecgHKt3wzXB8Lp4ll4ZO/3Jpu6I8N9OyySxCMYrFEylQcbAfm4QovypcXmWLi23suq4lNUwrXBmY8q65CocS344kPAGFAgMBAAECgYEAq/l86pgdkPxNvrHecesuy3UNCZ0/Qmhy/uVR0oMUudI4Q0daJntJ//DDv+SKSgLr8PaBrY8OPx/V5PvbMamhxiRXkUtiaJ0irwf0I/pZ2ayXvoKxVB1Sa/is84eWNpnhxa8i+/7qf+BXKgJ/UKqEcCg/i66sjJvok+NqlnouY+ECQQD79yKbzMUmu8dqODPyU3zFmhitFnFkdOd8LGKP2kFWyqyLaNPD6UFKLgABVlyli43QPi1RNO7X11l7xgaCClkLAkEA4JpsY/VzSesmW2H/SZWZFDGecxSWuG1BqEygAZO0wli822+W0STt5EwQeht5qLDMyxxgdZLKuR/6ZO+LEG9JrwJAUu26JFE3KlJvhdRNtJop3Nek+4MBezDG56WsIvCQxMIcHB46ZKam6IVPVyFXiNzvpfRw8eNcIQot14ELr008lQJBALQnSR+YZiP5SKft383O/50x+40FC6vcftiWtZTuPAPTF5DPXeJdw67l0CWRWjETtwCHv1svJgn9e2NwvFOvYCMCQQDLM6bNYILPq+OSmUVcr+FKxLWiLT62DbEaLHESWez8E95ywLtRv2FsTzhokhhgEqc6r77bsnCYqhGYn/emDva+
+[ INFO ] [2019-11-09 17:44:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [28] - system init build SecurityKey
+[ INFO ] [2019-11-09 17:44:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [33] - public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCau8pGe+RxGcZtaPOWHYrwfKGA24LnBHL9sL3M4/2EGB6FwepYG6eUfSwW9SADiO1L3upVrmL88NMO5rH19AdoIF4TCMfmbxI866obxlwHLqWxBNJpEIzYPmnT0akImqzF5ztyzdxIsrMgZ3zoXq9Z8P5RQdFwH4J3PklqHysS8QIDAQAB
+[ INFO ] [2019-11-09 17:44:05] [scheduling-1] INFO :  com.wchat.boot.KeyCache [34] - private key:MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAJq7ykZ75HEZxm1o85YdivB8oYDbgucEcv2wvczj/YQYHoXB6lgbp5R9LBb1IAOI7Uve6lWuYvzw0w7msfX0B2ggXhMIx+ZvEjzrqhvGXAcupbEE0mkQjNg+adPRqQiarMXnO3LN3EiysyBnfOher1nw/lFB0XAfgnc+SWofKxLxAgMBAAECgYATBwKxtix6R/whmiVSEWHzfq/xg4zOUbq+PYypdGPJaZnfQuBJY2UxGk9gp1X/eUgM62WPkbk0d3zMuUuq/g4m68MycPcQQvZwdu3yUm1/CyzgJBzxGrnaAIEUHgtDOX/8UFd13y2jiuDHcqnZ9aD5mml7kro5ZChDJ1UuvOqSzQJBANMlA8cQ47K8/bzLexG7lmfofQLIQNUTSDyUB/mrkWprOnnmN+s/5DiVEFPnW/8XpeJUKW/j/T9mzhvdMj69XFcCQQC7muQ9ogGff8yfyKNMaL2AQOTQ/aJyFN+yMia4uHY+Oe1BUBPC5HpQv4ylytTY+LVhD+7z5DufaYpVpnFOU/33AkAy3/VUDsa+d3kv91t0/10TNlqAxB2S+a1rI0P0rZlBKgsR+h25KlDkLU6c2N86zMjkiuDdG/MWRsAcyKRlp5zLAkEAm7RVhJXGVRPjyCXk6pDv3td9UbuArMCIXMRlAOEQOlsngBKvJA0vO3+PgzbR63aYS4PG5iNiHM+ioa2v0rvBRwJAby778igL19oEj1PPXGwQHOynpQxNLRuMue3fSm73tnIvAOQgfHBrVIq1hRt+kxQWd+6Ny+lzQ/j1SJFIjqMc2A==
+[ WARN ] [2019-11-09 17:46:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ WARN ] [2019-11-09 18:03:05] [scheduling-1] WARN :  org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [166] - No MyBatis mapper was found in '[com.wchat.dao]' package. Please check your configuration.
+[ INFO ] [2019-11-09 21:11:32] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [208] - Shutting down ExecutorService 'taskScheduler'
+[ INFO ] [2019-11-09 21:11:32] [SpringContextShutdownHook] INFO :  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2019-11-09 21:11:32] [SpringContextShutdownHook] INFO :  com.alibaba.druid.pool.DruidDataSource [1825] - {dataSource-1} closed
